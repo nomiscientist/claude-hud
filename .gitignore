@@ -33,8 +33,6 @@ Thumbs.db
 *~
 
 # Environment/secrets (safety)
-.env
-.env.*
 .claude/settings.json
 .claude/*.local.json
 *.pem
@@ -55,3 +53,4 @@ temp/
 # bun.lock
 package-lock.json
 yarn.lock
+config.bat

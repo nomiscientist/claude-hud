@@ -12,7 +12,11 @@
     "test:update-snapshots": "UPDATE_SNAPSHOTS=1 npm test",
     "test:stdin": "echo '{\"model\":{\"display_name\":\"Opus\"},\"context_window\":{\"current_usage\":{\"input_tokens\":45000},\"context_window_size\":200000},\"transcript_path\":\"/tmp/test.jsonl\"}' | node dist/index.js"
   },
-  "keywords": ["claude-code", "statusline", "hud"],
+  "keywords": [
+    "claude-code",
+    "statusline",
+    "hud"
+  ],
   "author": "Jarrod Watts",
   "license": "MIT",
   "engines": {
@@ -21,6 +25,8 @@
   "devDependencies": {
     "@types/node": "^20.0.0",
     "c8": "^9.1.0",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2",
     "typescript": "^5.0.0"
   }
 }
